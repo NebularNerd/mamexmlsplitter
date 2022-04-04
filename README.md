@@ -47,5 +47,5 @@ The script accepts the following arguments and abbreviations:
  - PyGUI based GUI to make it more point and click, could allow for multiple systems to be output into one file
  - Suggestions?
 
-**License:**
+**License:**  
 None, honestly use this code as you want, if you fork it or whatever please be kind enough to tag me as the original creator.
