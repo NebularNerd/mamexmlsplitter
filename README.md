@@ -22,7 +22,7 @@ python .\mamexmlsplitter.py -f 'N:\EMU\Mame\mame0242.xml' -src neogeo.cpp
 
 This will then match all naomi.cpp titles and dump the complete ```<machine>   </machine>```  entry out into the new file named mame-naomi.xml in the same dir as the input .xml file. This is based on Windows, this should work on Linux as well but let me know if not and I'll help fix that. 
 
-This is pretty rough and ready, it wil not check for the existence of an existing file (not a major issue as in theory it will always be replaced by the same or newer) and has no way at present to handle making software list for computers systems (for example ZX Spectrum +3 disks)
+This is pretty rough and ready, it will not check for the existence of an existing file (not a major issue as in theory it will always be replaced by the same or newer) and has no way at present to handle making software list for computers systems (for example ZX Spectrum +3 disks)
 
 The script accepts the following arguments and abbreviations:
 ```
