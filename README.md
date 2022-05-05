@@ -33,7 +33,7 @@ The script accepts the following arguments and abbreviations:
   --sourcefile SOURCEFILE, -src SOURCEFILE (Name of system sourcefile, e.g. naomi.cpp)
   ```
   
- **Recommended -src searches:**  
+ ## Recommended -src searches:
   - **atomiswave.cpp** For any Atomiswave games  
   - **naomi.cpp**      For any Naomi/Naomi2 Rom only or Rom/GD games  
   - **neogeo.cpp**     For any NeoGeo games regardless of MVS/AES  
@@ -41,11 +41,11 @@ The script accepts the following arguments and abbreviations:
  
  If you want to make combi files for example ATOMISWAVE + NAOMI, open both new .xml's in your favourite text editor and copy everything between ```<mame>   </mame>``` in one and paste before the closing ``` </mame>``` in the other and save as a new .xml (to prevent accidental overwrites). You can of course play around and use other .cpp's to create your own specialised lists.
  
- **Future plans:**
+## Future plans:
  - Try and figure out how to make software lists
  - Tidy code and add file exists check/override (either as y/n or commandline arg or both)
  - PyGUI based GUI to make it more point and click, could allow for multiple systems to be output into one file
  - Suggestions?
 
-**License:**  
+## License: 
 None, honestly use this code as you want, if you fork it or whatever please be kind enough to tag me as the original creator.
